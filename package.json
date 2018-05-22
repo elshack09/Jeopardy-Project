@@ -1,0 +1,19 @@
+{
+  "name": "jeopardy-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elshack09/Jeopardy-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elshack09/Jeopardy-Project/issues"
+  },
+  "homepage": "https://github.com/elshack09/Jeopardy-Project#readme"
+}
