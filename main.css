@@ -289,9 +289,7 @@ input[type=datetime-local],
 input[type=month] {
   -webkit-appearance: listbox;
 }
-div{
-    
-}
+
 textarea {
   overflow: auto;
   resize: vertical;
@@ -574,6 +572,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: 2px solid;
 }
 
 .row {
