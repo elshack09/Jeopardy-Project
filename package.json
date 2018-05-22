@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/elshack09/Jeopardy-Project/issues"
   },
-  "homepage": "https://github.com/elshack09/Jeopardy-Project#readme"
+  "homepage": "https://github.com/elshack09/Jeopardy-Project#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
 }

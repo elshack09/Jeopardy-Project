@@ -1,0 +1,10 @@
+// override color themes 
+$theme-colors: (
+  "primary": #14ac14,
+  "danger": #421311
+);
+
+/* override bootstrap defaults using this import code */
+@import "node_modules/bootstrap/scss/bootstrap";
+
+
