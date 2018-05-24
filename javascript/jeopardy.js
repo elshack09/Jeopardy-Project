@@ -8,6 +8,28 @@ $(document).ready(function(){
     $("#aa1").click(function(){
         $(this).hide();
     });
+    $("#aa2").click(function(){
+        $(this).hide();
+    });
+    $("#aa3").click(function(){
+        $(this).hide();
+    });
+    $("#aa4").click(function(){
+        $(this).hide();
+    });
+    $("#aa5").click(function(){
+        $(this).hide();
+    });
+    $("#aa1").click(function(){
+        $(this).hide();
+    });
+    $("#aa1").click(function(){
+        $(this).hide();
+    });
+    $("#aa1").click(function(){
+        $(this).hide();
+    });
+
 });
 
 
@@ -16,11 +38,19 @@ $(document).ready(function(){
     $("#a1").click(function(){
         $("#point").append().text("200");
     });
-    $("#b1").click(function(){
+    $("#a2").click(function(){
         $("#point").append().text("-200");
     });
-    $("#c1").click(function(){
+    $("#a3").click(function(){
         $("#point").append().text("-200");
     });
 
 });
+
+function updateScore(){
+    
+}
+// currentvalue
+// string to num
+// parsInt
+// new score
