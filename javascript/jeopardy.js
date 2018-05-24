@@ -178,6 +178,81 @@ $(document).ready(function(){
         $("#point").append().text(d);
         alertify.alert("WRONG").setHeader('You got this one...');        
     });
+    $("#i1").click(function(){
+        $("#point").append().text(e);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#i2").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#i3").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#j1").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#j2").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#j3").click(function(){
+        $("#point").append().text(e);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#k1").click(function(){
+        $("#point").append().text(e);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#k2").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#k3").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#l1").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#l2").click(function(){
+        $("#point").append().text(e);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#l3").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#m1").click(function(){
+        $("#point").append().text(g);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#m2").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#m3").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#n1").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#n2").click(function(){
+        $("#point").append().text(f);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#n3").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    
+    
+    
     
     
 
