@@ -82,16 +82,21 @@ let h = -800
 let i = 1000;
 let j = -1000;
 let score = 0;
+
 $(document).ready(function(){
     $("#a1").click(function(){
         $("#point").append().text(a);
-        alertify.alert("Correct");
+        alertify.alert("CORRECT").setHeader('You got this one...');
     });
     $("#a2").click(function(){
         $("#point").append().text(b);
+        alertify.alert("WRONG").setHeader('You got this one...');
+        
     });
     $("#a3").click(function(){
         $("#point").append().text(b);
+        alertify.alert("WRONG").setHeader('You got this one...');
+        
     });
     $("#b1").click(function(){
         $("#point").append().text(b);
@@ -123,6 +128,10 @@ $(document).ready(function(){
 
 });
 
+function overalScore(){
+    score = a+b+c+d+e+f+g+h+i+j;
+    document.getElementById("point").innerHTML= score;
+}
 // currentvalue
 // string to num
 // parsInt
