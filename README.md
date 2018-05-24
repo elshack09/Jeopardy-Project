@@ -1,6 +1,8 @@
-A README.md file containing:
-A Project description
-<!-- Project Descritpion -->
+# Project Description
+The project I decided to do is Jeopardy. The questions are themed around technologies for a Web Developer. In this game of Jeopardy there is only one round and as you the values are buttons. As you click on the button the score will be reflected.
+
+## Trello Board
+[Link to my Trello board.](https://trello.com/b/umM7WNuS/dev-jeopardy)
 
 #fdlkjfldajffdaljd
 afdlkfjdaljfd
