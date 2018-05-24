@@ -243,21 +243,95 @@ $(document).ready(function(){
         alertify.alert("WRONG").setHeader('You got this one...');        
     });
     $("#n2").click(function(){
-        $("#point").append().text(f);
+        $("#point").append().text(g);
         alertify.alert("CORRECT").setHeader('You got this one...');        
     });
     $("#n3").click(function(){
         $("#point").append().text(h);
         alertify.alert("WRONG").setHeader('You got this one...');        
     });
-    
-    
-    
-    
-    
-
+    $("#o1").click(function(){
+        $("#point").append().text(g);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#o2").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#o3").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#r1").click(function(){
+        $("#point").append().text(g);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#r2").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#r3").click(function(){
+        $("#point").append().text(h);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#s1").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#s2").click(function(){
+        $("#point").append().text(i);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#s3").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#t1").click(function(){
+        $("#point").append().text(i);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#t2").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#t3").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#u1").click(function(){
+        $("#point").append().text(i);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
+    $("#u2").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#u3").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#v1").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#v2").click(function(){
+        $("#point").append().text(j);
+        alertify.alert("WRONG").setHeader('You got this one...');        
+    });
+    $("#v3").click(function(){
+        $("#point").append().text(i);
+        alertify.alert("CORRECT").setHeader('You got this one...');        
+    });
 });
 
+// functiong asking user for their name
+$(document).ready(function(){
+    alertify.prompt('Enter Your Name').setHeader("Developer Enter Your Name!");
+        $("devName").documentgetElementById("devName").append();
+});
+
+
+// function adding score up
 function overalScore(){
     score = a+b+c+d+e+f+g+h+i+j;
     document.getElementById("point").innerHTML= score;
