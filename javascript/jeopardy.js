@@ -1,3 +1,6 @@
+
+
+// function for hint to show on modal
 $(function(){
     $('[data-toggle="tooltip"]').tooltip();
   });
@@ -17,19 +20,57 @@ $(document).ready(function(){
     $("#aa4").click(function(){
         $(this).hide();
     });
-    $("#aa5").click(function(){
+    $("#bb1").click(function(){
         $(this).hide();
     });
-    $("#aa1").click(function(){
+    $("#bb2").click(function(){
         $(this).hide();
     });
-    $("#aa1").click(function(){
+    $("#bb3").click(function(){
         $(this).hide();
     });
-    $("#aa1").click(function(){
+    $("#bb3").click(function(){
         $(this).hide();
     });
-
+    $("#bb4").click(function(){
+        $(this).hide();
+    });
+    $("#cc1").click(function(){
+        $(this).hide();
+    });
+    $("#cc2").click(function(){
+        $(this).hide();
+    });
+    $("#cc3").click(function(){
+        $(this).hide();
+    });
+    $("#cc4").click(function(){
+        $(this).hide();
+    });
+    $("#dd1").click(function(){
+        $(this).hide();
+    });
+    $("#dd2").click(function(){
+        $(this).hide();
+    });
+     $("#dd3").click(function(){
+        $(this).hide();
+    });
+    $("#dd4").click(function(){
+        $(this).hide();
+    });
+    $("#ee1").click(function(){
+        $(this).hide();
+    });
+    $("#ee2").click(function(){
+        $(this).hide();
+    });
+    $("#ee3").click(function(){
+        $(this).hide();
+    });
+    $("#ee3").click(function(){
+        $(this).hide();
+    });
 });
 
 
