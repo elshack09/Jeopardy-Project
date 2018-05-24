@@ -2,7 +2,7 @@
 The project I decided to do is Jeopardy. The questions are themed around technologies for a Web Developer. In this game of Jeopardy there is only one round and as you the values are buttons. As you click on the button the score will be reflected.
 
 ## Access Site on BitBallon
-[Link to Game](https://trello.com/b/umM7WNuS/dev-jeopardy)
+[Link to Game](http://devjeopardy.bitballoon.com)
 (devjeopardy.bitballoon.com)
 
 
@@ -18,22 +18,9 @@ https://trello.com/b/umM7WNuS/dev-jeopardy
 3.AlertifyJS
 4.SCSS
 
+## Version 2
+My project is still a work in progress for version 2 I will like to get a few of my features working and also putting more animations in the project. 
+
 ## WireFrame 
 [Wireframe Jeopardy]:https://github.com/elshack09/Jeopardy-Project/blob/master/wireframe.JPG
-<!-- A Link to the Deployed App
-A Link to the Trello Board
-A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
-A list of technologies, libraries, and/or frameworks used in the project, such as Twitter Bootstrap, jQuery, or Animate.css
-What you would like to add in version 2
-Wireframes or Mockups -- what does the app look like?
-Simple: take a picture of a whiteboard drawing
-Advanced: use a tool such as Balsamiq or Mockingbird
-User Stories in a PUBLIC Trello board
-You should have a Trello board tracking your User Stories
-Board lists should include:
-Backlog
-Todo
-In Progress
-Under Review
-Done
-Icebox -->
+

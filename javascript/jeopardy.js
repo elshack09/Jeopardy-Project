@@ -327,7 +327,7 @@ $(document).ready(function(){
 // functiong asking user for their name
 $(document).ready(function(){
     alertify.prompt('Enter Your Name').setHeader("Developer Enter Your Name!");
-        $("devName").documentgetElementById("devName").append();
+        $("devName").documentgetElementById("devName").append(); 
 });
 
 
