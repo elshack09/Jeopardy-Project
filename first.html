@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC" rel="stylesheet">
-    <!-- include alertify.css -->
     <!-- Bootstrap theme -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/themes/bootstrap.min.css"/>
-    <link rel="stylesheet" href="{PATH}/alertify.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.11.1/build/css/themes/bootstrap.min.css" />
 
-
-    <link rel="stylesheet" href="main.css">
+    <!-- include the style -->
+    <link rel="stylesheet" href="alertifyjs/css/alertify.min.css" />
+    <!-- include a theme -->
+    <link rel="stylesheet" href="alertifyjs/css/themes/" />
+    <!-- external css -->
+ <link rel="stylesheet" href="main.css">
     <title>Developer Jeopardy</title>
 </head>
 <!-- Questions from  Quizlet-->
@@ -128,15 +130,15 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">A</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="c1">A</button>
                                 <span>A scripting language</span>
                                 <br>
                                 <br>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">B</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="c2">B</button>
                                 <span>A foreign language</span>
                                 <br>
                                 <br>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">c</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="c3">c</button>
                                 <span>Rosetta Stone</span>
                             </div>
                             <div class="modal-footer">
@@ -163,15 +165,15 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">A</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="d1">A</button>
                                 <span>jQuery is a JavaScript Library</span>
                                 <br>
                                 <br>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">B</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="d2">B</button>
                                 <span>jQuery is a PHP Library</span>
                                 <br>
                                 <br>
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">c</button>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="d3">c</button>
                                 <span>jQuery is a your Local Library</span>
                             </div>
                             <div class="modal-footer">
@@ -792,7 +794,16 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
-        <script src="{PATH}/alertify.min.js"></script>
+    <!-- include the script -->
+     <script src="alertifyjs/alertify.min.js"></script>
+     <script type="text/javascript">
+        //override defaults
+        alertify.defaults.transition = "slide";
+        alertify.defaults.theme.ok = "btn btn-primary";
+        alertify.defaults.theme.cancel = "btn btn-danger";
+        alertify.defaults.theme.input = "form-control";
+        </script>
+   
     <script src="/javascript/jeopardy.js"></script>
 
 

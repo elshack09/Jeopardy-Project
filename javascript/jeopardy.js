@@ -69,17 +69,6 @@ $(document).ready(function(){
 });
 
 
-// alertify defaults
-
-
-
-
-
-
-
-
-
-
 // variables value
 
 let a = 200;
@@ -95,9 +84,8 @@ let j = -1000;
 let score = 0;
 $(document).ready(function(){
     $("#a1").click(function(){
-        $("#point").append().text((a));
-        alertify.alert('Correct');
-
+        $("#point").append().text(a);
+        alertify.alert("Correct");
     });
     $("#a2").click(function(){
         $("#point").append().text(b);
@@ -114,13 +102,27 @@ $(document).ready(function(){
     $("#b3").click(function(){
         $("#point").append().text(b);
     });
+    $("#c1").click(function(){
+        $("#point").append().text(a);
+    });
+    $("#c2").click(function(){
+        $("#point").append().text(b);
+    });
+    $("#c3").click(function(){
+        $("#point").append().text(b);
+    });
+    $("#d1").click(function(){
+        $("#point").append().text(a);
+    });
+    $("#d2").click(function(){
+        $("#point").append().text(b);
+    });
+    $("#d3").click(function(){
+        $("#point").append().text(b);
+    });
 
 });
 
-// function overalScore(){
-//     score = a+b+c+d+e+f+g+h+i+j;
-//     document.getElementById("point").innerHTML= score;
-// }
 // currentvalue
 // string to num
 // parsInt
