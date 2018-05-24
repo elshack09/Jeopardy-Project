@@ -17,6 +17,9 @@ https://trello.com/b/umM7WNuS/dev-jeopardy
 2.jQuery
 3.AlertifyJS
 4.SCSS
+
+## WireFrame 
+[Wireframe Jeopardy]:https://github.com/elshack09/Jeopardy-Project/blob/master/wireframe.JPG
 <!-- A Link to the Deployed App
 A Link to the Trello Board
 A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
