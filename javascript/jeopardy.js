@@ -1,6 +1,4 @@
-
-
-// function for hint to show on modal
+// function for hint to show on modal tooltip
 $(function(){
     $('[data-toggle="tooltip"]').tooltip();
   });
@@ -24,9 +22,6 @@ $(document).ready(function(){
         $(this).hide();
     });
     $("#bb2").click(function(){
-        $(this).hide();
-    });
-    $("#bb3").click(function(){
         $(this).hide();
     });
     $("#bb3").click(function(){
@@ -68,28 +63,41 @@ $(document).ready(function(){
     $("#ee3").click(function(){
         $(this).hide();
     });
-    $("#ee3").click(function(){
+    $("#ee4").click(function(){
         $(this).hide();
     });
 });
 
 
 // function value
+
+let a = 200;
+let b = -200;
+let c = 400;
+let d = -400
+let e = 600
+let f = -600
+let g = 800
+let h = -800
+let i = 1000;
+let j = -1000;
+
 $(document).ready(function(){
     $("#a1").click(function(){
-        $("#point").append().text("200");
+        $("#point").append().text((a));
+        
     });
     $("#a2").click(function(){
-        $("#point").append().text("-200");
+        $("#point").append().text(b);
     });
     $("#a3").click(function(){
-        $("#point").append().text("-200");
+        $("#point").append().text(b);
     });
 
 });
 
-function updateScore(){
-    
+function Score(){
+    let score = a+b+c+d+e+f+g+h+i+j
 }
 // currentvalue
 // string to num
