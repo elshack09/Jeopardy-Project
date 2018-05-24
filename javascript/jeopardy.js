@@ -69,7 +69,7 @@ $(document).ready(function(){
 });
 
 
-// function value
+// variables value
 
 let a = 200;
 let b = -200;
@@ -81,11 +81,10 @@ let g = 800
 let h = -800
 let i = 1000;
 let j = -1000;
-
+let score = 0;
 $(document).ready(function(){
     $("#a1").click(function(){
         $("#point").append().text((a));
-        
     });
     $("#a2").click(function(){
         $("#point").append().text(b);
@@ -93,11 +92,21 @@ $(document).ready(function(){
     $("#a3").click(function(){
         $("#point").append().text(b);
     });
+    $("#b1").click(function(){
+        $("#point").append().text(b);
+    });
+    $("#b2").click(function(){
+        $("#point").append().text(e);
+    });
+    $("#b3").click(function(){
+        $("#point").append().text(b);
+    });
 
 });
 
-function Score(){
-    let score = a+b+c+d+e+f+g+h+i+j
+function overalScore(){
+    score = a+b+c+d+e+f+g+h+i+j;
+    document.getElementById("point").innerHTML= score;
 }
 // currentvalue
 // string to num

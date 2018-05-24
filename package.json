@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/elshack09/Jeopardy-Project#readme",
   "dependencies": {
+    "alertifyjs": "^1.11.1",
     "bootstrap": "^4.1.1"
   }
 }
